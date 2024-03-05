@@ -17,6 +17,14 @@ If you wanted to display the icon at `48x48` place the SVG path data in place of
     </Canvas>
 </Viewbox>
 ```
+## Windows SDK with Win UI 3
+
+To add it to your project add the webfont file and set it's build action to `Content`.
+In your `App.xaml` file add like this, modify according to your path, in the example it's placed inside the Assets folder.
+
+```xml
+<FontFamily x:Key="IconFont">ms-appx:///Assets/materialdesignicons-webfont.ttf#Material Design Icons</FontFamily>
+
 
 ## MahApps.Metro.IconPacks
 
