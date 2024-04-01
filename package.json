@@ -21,7 +21,7 @@
   "scripts": {
     "build": "NODE_ENV=production npm run build --workspaces",
     "certs:mac": "./.dev/create-certs.sh",
-    "certs:win": "./.dev/create-certs.bat",
+    "certs:win": ".\\.dev\\create-certs.bat",
     "dev": "concurrently -c auto npm:dev:framework npm:dev:api npm:dev:client",
     "dev:api": "npm run dev --workspace=api",
     "dev:client": "npm run dev --workspace=client",
